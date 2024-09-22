@@ -1,10 +1,12 @@
-import { Button } from "@chakra-ui/react";
+import { Container, Stack } from "@chakra-ui/react";
+import Navber from "./components/Navbar";
 
 function App() {
   return (
-    <>
-      <Button>Hello</Button>
-    </>
+    <Stack h="100vh">
+      <Navber />
+      <Container></Container>
+    </Stack>
   );
 }
 
